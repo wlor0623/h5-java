@@ -212,9 +212,9 @@ if(!isbatch)
     //var mycheck1=document.getElementById('mycheck1'); 
     //var mycheck2=document.getElementById('mycheck2'); 
     var enginemode=document.getElementById('enginemode'); 
-    var href = 'main.html?jars=jar/' + jarname + '&jad=&midletClassName=' + midletClassName;
+    var href = 'mains.html?jars=jar/' + jarname + '&jad=&midletClassName=' + midletClassName;
     if (islocaljar) {
-      href = 'main.html?localjar=' + jarname;
+      href = 'mains.html?localjar=' + jarname;
     }
     
     href+="&enginemode="+enginemode.options[enginemode.selectedIndex].value; 

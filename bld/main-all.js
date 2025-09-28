@@ -8,7 +8,7 @@ var debugString=0;
 var enginemode='classesold.jar';
 
 //是否是主页
-var isIndex = window.location.href.indexOf('main.html')==-1;
+var isIndex = window.location.href.indexOf('mains.html')==-1;
 var isLoadJarFinished = false;
 var myflushAll=undefined;
 var mytitle="";
